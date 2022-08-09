@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   schedule:
     # 北京时间每天上午10点，下午2点，4点
-    - cron:  '0 0 10,14,16 * * ?'
+    - cron:  '0 0 10,14,18 * * ?'
 
 jobs:
   build:
